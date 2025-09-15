@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BoardGames</title>
+    <link rel="stylesheet" href="css/main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="header-nav">
+        <a href="#" class="header-nav__item">Main Page</a>
+        <a href="#board-games" class="header-nav__item">Board Games</a>
+        <a href="#community" class="header-nav__item">Community</a>
+        <a href="#" class="header-nav__item">Contact</a>
+      </nav>
+
+      <nav class="mobile-nav">
+        <a href="#" class="mobile-nav__item">Main Page</a>
+        <a href="#board-games" class="mobile-nav__item">Board Games</a>
+        <a href="#community" class="mobile-nav__item">Community</a>
+        <a href="#" class="mobile-nav__item">Contact</a>
+      </nav>
+      <button class="burger-btn">
+        <div class="burger-btn__box">
+          <div class="burger-btn__bars"></div>
+        </div>
+      </button>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__overlay">
+          <div class="hero__text">
+            <h3>Enjoy your time here!</h3>
+          </div>
+        </div>
+      </section>
+
+      <section id="board-games" class="board-games">
+        <div class="board-games__title">
+          <h2>Board Games</h2>
+          <h3>Choose your favorite game and start playing!</h3>
+        </div>
+        <div class="game-card">
+          <span class="game-card__description">
+            <h2>9 Men's Morris</h2>
+            <h3>9 Men's Morris is a strategy board game for two players.</h3>
+          </span>
+          <span class="game-card__button">
+            <a href="./9MenMorris/index.html" class="btn">Play</a>
+          </span>
+        </div>
+
+        <div class="game-card">
+          <span class="game-card__description">
+            <h2>Memory</h2>
+            <h3>
+              Memory is a card game where players match pairs of cards by
+              flipping them over.
+            </h3>
+          </span>
+          <span class="game-card__button">
+            <a href="./Memory/index.html" class="btn">Play</a>
+          </span>
+        </div>
+
+        <div class="game-card">
+          <span class="game-card__description">
+            <h2>Tic Tac Toe</h2>
+            <h3>
+              Tic Tac Toe is a game in which two players take turns marking
+              spaces in a 3x3 grid.
+            </h3>
+          </span>
+          <span class="game-card__button">
+            <a href="./ticTacToe/index.html" class="btn">Play</a>
+          </span>
+        </div>
+
+        <div class="game-card">
+          <span class="game-card__description">
+            <h2>GO</h2>
+            <h3>
+              Go is a board game in which the aim is to surround more territory
+              than the opponent.
+            </h3>
+          </span>
+          <span class="game-card__button">
+            <a href="./Go/index.html" class="btn">Play</a>
+          </span>
+        </div>
+      </section>
+
+      <section id="community" class="community-section">
+        <div class="community-container">
+          <h2 class="community-title">Join Our Community!</h2>
+          <div class="cards-wrapper">
+            <div class="community-card">
+              <div class="card-icon">
+                <i class="fab fa-discord"></i>
+              </div>
+              <h3 class="card-title">Discord</h3>
+              <p class="card-text">
+                Chat with other players in real-time. Share tips, find new
+                friends, and participate in community events.
+              </p>
+              <a href="#" class="btn community-btn">Join Us</a>
+            </div>
+            <div class="community-card">
+              <div class="card-icon">
+                <i class="fas fa-comments"></i>
+              </div>
+              <h3 class="card-title">Forum</h3>
+              <p class="card-text">
+                Discuss strategies, ask questions, and share your best game
+                moments on our dedicated forum.
+              </p>
+              <a href="#" class="btn community-btn">Visit Forum</a>
+            </div>
+            <div class="community-card">
+              <div class="card-icon">
+                <i class="fas fa-images"></i>
+              </div>
+              <h3 class="card-title">Gallery</h3>
+              <p class="card-text">
+                Showcase your game setups, creative fan art, or tournament
+                photos. Inspire others with your passion!
+              </p>
+              <a href="#" class="btn community-btn">Browse Gallery</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 Board Games. All Rights Reserved.</p>
+    </footer>
+  </body>
+
+  <script src="js/main.js"></script>
+</html>
